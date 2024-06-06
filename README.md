@@ -31,8 +31,8 @@ Este projeto implementa um algoritmo genético para resolver o problema da mochi
 Para compilar e executar o projeto, use os seguintes comandos:
 
 ```sh
-g++ -o knapsack knapsack.cpp
-./knapsack inputs/In1.txt outputs/Out1.txt
+g++ -o knapsack main_solver.cpp
+./main_solver inputs/In1.txt outputs/Out1.txt
 ```
 
 ### Configuração
@@ -53,17 +53,5 @@ Modifique os arquivos de entrada para alterar o número de itens, seus valores m
 ### Saída
 
 O programa gera arquivos de saída detalhando a progressão do algoritmo genético ao longo das gerações e a solução final, incluindo o valor total e o peso dos itens na mochila. 
-
-### Exemplo de Uso
-
-Suponha que você tenha cinco arquivos de entrada (`In1.txt` a `In5.txt`) na pasta `inputs` e deseja gerar os arquivos de saída correspondentes na pasta `outputs`:
-
-```sh
-./knapsack inputs/In1.txt outputs/Out1.txt
-./knapsack inputs/In2.txt outputs/Out2.txt
-./knapsack inputs/In3.txt outputs/Out3.txt
-./knapsack inputs/In4.txt outputs/Out4.txt
-./knapsack inputs/In5.txt outputs/Out5.txt
-```
 
 Seguindo essas instruções, você poderá executar o algoritmo genético para resolver o problema da mochila binária de forma eficiente.
